@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.enel.theuselessweb.MainActivity">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="带 我 去"
+      android:textColor="#333333"
+      android:textSize="40dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="一 个"
+      android:textColor="#333333"
+      android:textSize="16dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="无 聊 的"
+      android:textColor="#333333"
+      android:textSize="40dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="网      站"
+      android:textColor="#333333"
+      android:textSize="40dp" />
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="horizontal">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="→ "
+        android:textColor="#333333"
+        android:textSize="50dp" />
+
+      <info.hoang8f.widget.FButton
+        android:id="@+id/to_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif-monospace"
+        android:text="PLEASE"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:visibility="visible"
+        fbutton:buttonColor="#FF1493"
+        fbutton:cornerRadius="0dp"
+        fbutton:shadowColor="#C3357C"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp" />
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ←"
+        android:textColor="#333333"
+        android:textSize="50dp" />
+    </LinearLayout>
+
+  </LinearLayout>
+
+</RelativeLayout>
